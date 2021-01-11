@@ -1,0 +1,13 @@
+## Interface: 11306
+## Title: SexyLib |cFF00FF00Hashing
+## Notes: Hashing module of Sexy Lib
+## Title: SexyLib |cFF00FF00Хеширование
+## Notes-ruRu: Модуль хеширования Sexy Lib
+## Author: Konstantin Shandurenko
+## Version: 1.0.0
+## RequiredDeps: SexyLib-Core, LibStub, AceSerializer-3.0, LibCompress
+
+crc.lua
+sha2.lua
+dsa.lua
+hashing.lua
