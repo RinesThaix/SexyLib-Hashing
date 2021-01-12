@@ -8,8 +8,8 @@ Currently supports *CRC32*, *SHA256* and *RSA*.
 ## Requirements
 - **SexyLib-Core** is required.
 - **LibStub** is required.
+- **LibDeflate** is required.
 - **AceSerializer-3.0** is required.
-- **LibCompress** is required.
 
 ## Usage
 

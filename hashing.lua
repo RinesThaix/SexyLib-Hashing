@@ -1,10 +1,9 @@
 local function toString(value)
     local libS = LibStub:GetLibrary("AceSerializer-3.0")
-	local libC = LibStub:GetLibrary("LibCompress")
-    local libCE = libC:GetAddonEncodeTable()
+	local libD = LibStub:GetLibrary("LibDeflate")
     local encoded = libS:Serialize(data)
-	encoded = libC:CompressHuffman(encoded)
-    return libCE:Encode(encoded)
+	encoded = libD:CompressDeflate(encoded)
+    return libD:EncodeForWoWAddonChannel(encoded)
 end
 
 local hashing, util, logger = SexyLib:Hashing(), SexyLib:Util(), SexyLib:Logger('Sexy Lib')
