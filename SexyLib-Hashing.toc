@@ -5,7 +5,7 @@
 ## Notes-ruRu: Модуль хеширования Sexy Lib
 ## Author: Konstantin Shandurenko
 ## Version: 1.0.0
-## RequiredDeps: SexyLib-Core, LibStub, AceSerializer-3.0, LibCompress
+## RequiredDeps: SexyLib-Core
 
 crc.lua
 sha2.lua
